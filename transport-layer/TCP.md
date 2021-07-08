@@ -1,4 +1,4 @@
-#### TCP简介
+### TCP简介
 
 - 点对点
 
@@ -34,7 +34,7 @@
 
   发送方不会淹没接收方
 
-#### TCP报文段结构
+### TCP报文段结构
 
 ![image-20210612175424926](https://raw.githubusercontent.com/sermonlizhi/picture/main/image-20210612175424926.png)
 
@@ -90,7 +90,7 @@
 
   对所有数据进行累加，报错首部信息和数据信息
 
-#### 往返延时(RTT)和超时
+### 往返延时(RTT)和超时
 
 SampleRTT：测量报文段发出到收到确认的时间
 
@@ -116,7 +116,7 @@ DevRTT = (1-b)*DevRTT+b *|SampleRTT-EstimateRTT|（推荐值：b=0.25）
 
 超时时间 TimeOutIntervel=EstimateRTT +4*DevRTT
 
-#### TCP的可靠数据传输
+### TCP的可靠数据传输
 
 - TCP在IP不可靠服务的基础上建立了rdt
 
@@ -160,7 +160,7 @@ DevRTT = (1-b)*DevRTT+b *|SampleRTT-EstimateRTT|（推荐值：b=0.25）
 
   根据接收方响应TCP段中TCP头的流量控制字段，指定接收方能接收的最大字节数
 
-#### TCP连接管理
+### TCP连接管理
 
 - **两次握手**
 
