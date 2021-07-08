@@ -6,7 +6,7 @@
 
 假设：DHCP服务器运行在公司路由器上
 
-![image-20210630162526168](https://i.loli.net/2021/06/30/2FgwEM5aQurLS6Y.png)
+![image-20210630162526168](https://raw.githubusercontent.com/sermonlizhi/picture/main/2FgwEM5aQurLS6Y.png)
 
 
 
